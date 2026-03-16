@@ -16,7 +16,7 @@ class GameRunner:
         total = 0
         for die in self.dice:
             total += die.value
-        import ipdb; ipdb.set_trace()
+        #import ipdb; ipdb.set_trace()
         return total
 
     @classmethod
@@ -35,7 +35,7 @@ class GameRunner:
             guess = input("Sigh. What is your guess?: ")
             guess = int(guess)
 
-            import ipdb; ipdb.set_trace()
+            #import ipdb; ipdb.set_trace()
 
             if guess == runner.answer():
                 print("Congrats, you can add like a 5 year old...")
